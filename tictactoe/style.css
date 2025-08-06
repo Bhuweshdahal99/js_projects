@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #201335;
+}
+.container{
+    background-color: blue;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    background-color: #4F4789;
+   box-shadow: 3px 3px 15px rgb(0, 0, 0);
+   border-radius: 9px;
+   transform: scale(1.1);
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: fit-content;
+    height: fit-content;
+    grid-gap: 9px;
+}
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #FFFDED;
+    border: none;
+    border-radius: 9px;
+    font-size: 65px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #FFB17A;
+}
+.msg-container{
+    font-size: 20px;
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    bottom: 9px;
+    left: 42.5%;
+    color: rgb(31, 182, 112);
+    
+}
+.msg-container button{
+    padding: 15px;
+    border: 5px solid rgb(20, 201, 20);
+    border-radius: 10px;
+    background-color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-top: 10px;
+}
+.msg{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.msg-container button:hover{
+    background-color: rgb(20, 201, 20);
+    color: white;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+.title{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    height: 80px;
+
+    background-color: #325592;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: white;
+    width: 50vw;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: white;
+    width: 50vw;
+}
